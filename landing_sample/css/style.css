@@ -80,13 +80,10 @@ body {
 }
 
 .main-container {
-	/* padding-top: 368px; */
 	width: 1190px;
 	height: 1700px;
 	background-image: url("../img/line.png");
 	background-repeat: no-repeat;
-	/* background-position: 368px 300px;
-	background-size: 821px, 1190px; */
 	margin: 106px 108px 137px 142px;
 }
 
@@ -105,8 +102,6 @@ body {
 	text-align: center;
 	color: rgba(39, 61, 70, 0.6);
 	margin-bottom: 28px;
-	/* padding-top: 168px;
-	margin-left: 530px; */
 }
 
 img {
@@ -154,6 +149,7 @@ p {
 }
 
 .fs-button {
+	color: aqua;
 }
 
 .fs-text {
