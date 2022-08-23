@@ -121,7 +121,7 @@ body {
 }
 
 p {
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 }
 
 .main-content {
@@ -134,7 +134,7 @@ p {
 }
 
 .benefits-list li {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .benefits-list li::before {
@@ -147,60 +147,3 @@ p {
 	font-weight: bold;
 	background-image: url("../img/check-icon.png");
 }
-
-.fs-button {
-	color: aqua;
-}
-
-.fs-text {
-	width: 110px;
-	height: 10px;
-	font-family: Arial;
-	font-size: 14px;
-	line-height: 2.86;
-	letter-spacing: 2.8px;
-	color: #fff;
-}
-
-.button-fs {
-	width: 90%;
-	margin: 40px auto;
-	text-align: center;
-}
-
-.story-button {
-	width: 130px;
-	height: 40px;
-	margin: 20px;
-	color: #fff;
-	border-radius: 5px;
-	padding: 10px 25px;
-	font-family: "Lato", sans-serif;
-	font-weight: 500;
-	background: transparent;
-	cursor: pointer;
-	transition: all 0.3s ease;
-	position: relative;
-	display: inline-block;
-	box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
-		4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-	outline: none;
-}
-
-/*.test1 {
-	background-color: aqua;
-	color: green;
-	width: 100px;
-	height: 100px;
-	margin-top: 500px;
-	margin-left: 800px;
-}
-
-.test2 {
-	background-color: green;
-	color: aqua;
-	width: 100px;
-	height: 100px;
-	margin-top: 10px;
-	margin-left: 750px;
-}*/
