@@ -84,7 +84,7 @@ body {
 	height: 1700px;
 	background-image: url("../img/line.png");
 	background-repeat: no-repeat;
-	margin: 106px 108px 137px 142px;
+	margin: 140px auto;
 }
 
 .inner-container {
@@ -121,7 +121,7 @@ body {
 }
 
 p {
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 }
 
 .main-content {
@@ -136,7 +136,8 @@ p {
 
 .benefits-list li {
 	font-style: arial;
-	font-size: 20px;
+	font-size: 24px;
+	margin-bottom: 14px;
 }
 
 .benefits-list li:nth-child(1) {
@@ -158,7 +159,7 @@ p {
 
 .benefits-list li:before {
 	content: "";
-	font-weight: bold;
+	font-weight: 700;
 	display: inline-block;
 	width: 25px;
 	height: 19px;
@@ -190,4 +191,14 @@ p {
 .benefits-info-link span {
 	background: url(../img/arrow-r.png) right no-repeat;
 	padding-right: 31px;
+}
+
+.benefits-info-link:hover {
+	background-color: #80b7b3;
+}
+
+.benefits-info-link:active {
+	position: relative;
+	top: 3px;
+	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.3);
 }
