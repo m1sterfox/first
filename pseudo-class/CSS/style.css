@@ -81,6 +81,7 @@ body {
 .main-container {
 	margin-left: 290px;
 	margin-top: 163px;
+	margin-bottom: 100px;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: 500;
 	width: 800px;
@@ -180,6 +181,7 @@ li:hover {
 .textinput {
 	width: 292px;
 	height: 50px;
+	margin-bottom: 115px;
 }
 .textinput:focus {
 	width: 292px;
@@ -190,5 +192,13 @@ li:hover {
 
 .main-content {
 	font-size: 18px;
-	line-height: 1.56px;
+	line-height: 1.56;
+	padding-bottom: 100px;
+}
+
+.main-content::first-line {
+	color: #ff0000;
+}
+.main-content p:last-child::first-letter {
+	color: #ff0000;
 }
