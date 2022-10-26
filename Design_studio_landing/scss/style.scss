@@ -1,0 +1,147 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+$fontfamily:"Lato";
+
+.ibg{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	}
+	
+	.ibg img{
+	
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	}
+	.mainblock {
+		// .mainblock__content
+		&__content {
+		}
+		// .mainblock__logo
+		&__logo {
+		}
+		// .mainblock__text
+		&__text {
+		}
+		// .mainblock__title
+		&__title {
+		}
+		// .mainblock__subtitle
+		&__subtitle {
+		}
+		// .mainblock__footer
+		&__footer {
+		}
+		// .mainblock__btn
+		&__btn {
+		}
+		// .mainblock__arrow
+		&__arrow {
+		}
+		// .mainblock__image
+		&__image {
+		}
+}
+.btn {
+		// .btn__w
+		&__w {
+		}
+}
+// 8:44
+
+
+// .container{
+// 	text-align: center;
+// 	font-family: "Lato";
+// }
+// .mainblock{
+// 	flex: 1 1 auto;
+// 	position: relative;
+// 	&__image{
+// 		position: absolute;
+// 		width: 100%;
+// 		height: 100%;
+// 		top: 0px;
+// 		left: 0px;
+// 	}
+// }
+// .mainblock-image{
+// 	position: absolute;
+// 	object-fit: cover;
+// 	overflow: hidden;
+// }
