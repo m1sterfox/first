@@ -53,6 +53,9 @@ ul {
 	align-items: center;
 	height: 100px;
 }
+.header__logo {
+	margin-left: 115px;
+}
 
 .list {
 	display: flex;
