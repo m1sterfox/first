@@ -170,4 +170,9 @@ ul {
 	text-align: center;
 	padding: 14px;
 	line-height: 120%;
+	transition: all 0.3s;
+}
+.premier__btn:hover {
+	color: #53a1cb;
+	border: 1px solid #53a1cb;
 }
