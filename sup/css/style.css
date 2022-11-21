@@ -35,22 +35,22 @@ p {
 
 .header {
 	background-image: url(../images/header-sup.jpg);
-	background-size: cover;
+	/* background-size: cover; */
 	background-repeat: no-repeat;
 	min-height: 100vh;
-	background-position: center;
+	/* background-position: center; */
 	position: relative;
 }
 .header::before {
 	content: "";
 	position: absolute;
 	background-image: url(../images/header-decor.svg);
-	bottom: 0;
+	bottom: 84px;
 	left: 0;
 	right: 0;
-	height: 500px;
+	height: 456px;
 	background-size: cover;
-	background-position: center;
+	/* background-position: center; */
 	background-repeat: no-repeat;
 	transform: translateY(50%);
 	z-index: 2;
@@ -64,7 +64,7 @@ p {
 	right: 0;
 	height: 456px;
 	background-size: cover;
-	background-position: center;
+	/* background-position: center; */
 	background-repeat: no-repeat;
 	transform: translateY(75%) rotate(180deg);
 	z-index: 3;
@@ -138,13 +138,13 @@ p {
 }
 .header__decor-text {
 	position: absolute;
-	bottom: 25px;
+	bottom: 20px;
 	color: #0093a1;
 }
 .header__decor-text--one {
 	z-index: 1;
 	right: 145px;
-	bottom: 65px;
+	bottom: 130px;
 }
 .header__decor-text--one,
 .header__decor-text--two {
@@ -155,12 +155,12 @@ p {
 }
 .header__decor-text--two {
 	z-index: 4;
-	left: 265px;
-	bottom: 0;
+	left: 283px;
+	bottom: -9px;
 }
 .header__decor-text--three {
 	max-width: 360px;
-	right: 145px;
+	right: 127px;
 	z-index: 4;
 	font-weight: 300;
 	font-size: 32px;
