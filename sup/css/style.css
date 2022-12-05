@@ -39,6 +39,14 @@ ul {
 	margin: 0 auto;
 }
 
+.title {
+	font-family: "Comfortaa", cursive;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 67px;
+}
+
 .header {
 	background-image: url(../images/header-sup.jpg);
 	/* background-size: cover; */
@@ -219,6 +227,7 @@ ul {
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
+	position: absolute;
 }
 .popup-btn span {
 	padding-top: 12px;
@@ -226,7 +235,6 @@ ul {
 	color: #fff;
 }
 .info__btn {
-	position: absolute;
 	bottom: 0;
 	right: 0;
 }
@@ -238,10 +246,6 @@ ul {
 	padding-bottom: 50px;
 }
 .info__specs-title {
-	text-transform: uppercase;
-	font-family: "Comfortaa", cursive;
-	font-size: 60px;
-	line-height: 67px;
 	width: 250px;
 }
 .info__specs-list {
@@ -261,7 +265,7 @@ ul {
 }
 
 .buy {
-	padding: 150px 0;
+	padding: 150px 0 0;
 }
 .buy__inner {
 	display: flex;
@@ -273,11 +277,7 @@ ul {
 	position: relative;
 }
 .buy__title {
-	text-transform: uppercase;
 	margin-bottom: 50px;
-	font-family: "Comfortaa", cursive;
-	font-size: 60px;
-	line-height: 67px;
 	color: #0093a1;
 }
 .buy__list {
@@ -330,4 +330,59 @@ ul {
 	background-color: #b9c400;
 	border-color: #b9c400;
 	color: #262c27;
+}
+
+.technology {
+	margin-bottom: 150px;
+}
+.techology__top {
+	background-image: url(../images/technology-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.techology__top-inner {
+	position: relative;
+	min-height: 110vh;
+}
+.technology__btn {
+	right: 350px;
+	top: 50vh;
+}
+.techology__top-box {
+	position: absolute;
+	left: 0;
+	bottom: 85px;
+}
+.technology__title {
+	max-width: 470px;
+	margin-bottom: 62px;
+}
+.technology__list {
+	margin: 0;
+	padding-left: 20px;
+}
+.technology__list-item {
+	padding-left: 24px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+.gallery__box {
+	display: flex;
+	gap: 68px;
+	margin-top: 115px;
+}
+.gallery__text {
+	width: 350px;
+}
+.gallery-min {
+	display: grid;
+	gap: 30px 24px;
+	grid-template-columns: 481px 208px;
+	grid-template-rows: 432px 300px;
+}
+.gallery-min__img--1 {
+	grid-column: 1 / 3;
 }
