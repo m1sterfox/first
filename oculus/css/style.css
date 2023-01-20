@@ -67,6 +67,7 @@ body {
 
 .basket {
 	position: relative;
+	margin-left: 224px;
 }
 
 .basket--on span {
@@ -114,6 +115,7 @@ body {
 }
 
 .buy-btn {
+	border: 1px solid;
 	background: transparent;
 	border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
 	border-image-slice: 1;
