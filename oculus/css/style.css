@@ -1,12 +1,12 @@
 @font-face {
-	font-family: "Helvitica", sans-serif;
+	font-family: "Helvetica", sans-serif;
 	src: url(../fonts/helvetica.woff2);
 	font-style: normal;
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: "Helvitica-Bold", sans-serif;
+	font-family: "Helvetica-Bold", sans-serif;
 	src: url(../fonts/helvetica-bold.woff2);
 	font-style: normal;
 	font-weight: 700;
@@ -42,7 +42,7 @@ img {
 }
 
 body {
-	font-family: "Helvitica", sans-serif;
+	font-family: "Helvetica", sans-serif;
 	font-weight: 400;
 	font-size: 16;
 	line-height: 1.4;
@@ -97,6 +97,7 @@ body {
 	padding-top: 16%;
 	font-size: 96px;
 	margin-bottom: 10px;
+	font-weight: 400;
 }
 
 .subtitle {
@@ -138,4 +139,8 @@ body {
 	padding: 20px 105px;
 	background: transparent;
 	color: #5c5c5e;
+}
+
+.features {
+	padding: 100px 0;
 }
