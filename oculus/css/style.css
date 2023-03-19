@@ -176,6 +176,7 @@ button {
 	margin-bottom: 2px;
 	background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
@@ -271,6 +272,7 @@ button {
 	text-transform: uppercase;
 	background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 36px;
 	margin-bottom: 10px;
@@ -282,6 +284,7 @@ button {
 	display: inline-block;
 	background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -311,6 +314,7 @@ button {
 .game__item-link {
 	background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	margin-top: auto;
 }
@@ -329,6 +333,7 @@ button {
 .buy__bg {
 	background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 700;
 	font-size: 400px;
@@ -367,6 +372,7 @@ button {
 .equipment__box-ttitle {
 	background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 36px;
 	line-height: 42px;
@@ -415,6 +421,7 @@ button {
 	margin-bottom: 30px;
 	background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 36px;
 	text-transform: uppercase;
@@ -457,7 +464,61 @@ button {
 	font-weight: 700;
 	background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	text-align: center;
 	width: 100%;
+}
+
+.contacts {
+	margin-bottom: 100px;
+}
+.contacts__title {
+	font-size: 24px;
+	line-height: 33px;
+	color: #070707;
+	margin-bottom: 10px;
+}
+.contacts__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+.contacts__form {
+	flex-basis: 600px;
+}
+.contacts__text {
+	font-size: 13px;
+}
+.contacts__email {
+}
+.form {
+	margin-bottom: 10px;
+	position: relative;
+}
+.form__input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #cacad6;
+	padding: 22px 70px 22px 0;
+}
+.form__input::placeholder {
+	font-family: "Helvetica";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 18px;
+	color: #cacad6;
+}
+.form__btn {
+	width: 50px;
+	height: 50px;
+	background-color: #cacad6;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #5c5c5e;
+	border-radius: 50%;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
 }
